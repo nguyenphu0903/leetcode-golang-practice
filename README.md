@@ -88,6 +88,7 @@ Each problem directory mirrors the LeetCode environment and includes:
 Progress tracking based on the [NeetCode Roadmap](https://neetcode.io/roadmap).
 
 ### 1. Arrays & Hashing
+
 - [x] Contains Duplicate (Easy)
 - [x] Valid Anagram (Easy)
 - [x] Two Sum (Easy)
@@ -98,10 +99,12 @@ Progress tracking based on the [NeetCode Roadmap](https://neetcode.io/roadmap).
 - [x] Valid Sudoku (Medium)
 - [ ] Longest Consecutive Sequence (Medium)
 
-*Bonus / Extra Practice:*
+_Bonus / Extra Practice:_
+
 - [/] Subarray Sum Equals K (Medium - Prefix Sum)
 
 ### 2. Two Pointers
+
 - [x] Valid Palindrome (Easy)
 - [ ] Two Sum II - Input Array Is Sorted (Medium)
 - [ ] 3Sum (Medium)
@@ -109,6 +112,7 @@ Progress tracking based on the [NeetCode Roadmap](https://neetcode.io/roadmap).
 - [ ] Trapping Rain Water (Hard)
 
 ### 3. Stack
+
 - [ ] Valid Parentheses (Easy)
 - [ ] Min Stack (Medium)
 - [ ] Evaluate Reverse Polish Notation (Medium)
@@ -116,19 +120,21 @@ Progress tracking based on the [NeetCode Roadmap](https://neetcode.io/roadmap).
 - [ ] Car Fleet (Medium)
 
 ### 4. Sliding Window
+
 - [x] Best Time to Buy and Sell Stock (Easy)
 - [ ] Longest Substring Without Repeating Characters (Medium)
 - [ ] Longest Repeating Character Replacement (Medium)
 - [ ] Minimum Window Substring (Hard)
 
 ### 5. Binary Search
+
 - [ ] Binary Search (Easy)
 - [ ] Search a 2D Matrix (Medium)
 - [ ] Koko Eating Bananas (Medium)
 - [ ] Find Minimum in Rotated Sorted Array (Medium)
 - [ ] Search in Rotated Sorted Array (Medium)
 
-*(More topics will be updated as progress continues...)*
+_(More topics will be updated as progress continues...)_
 
 ## 🎓 Recommended Resources
 

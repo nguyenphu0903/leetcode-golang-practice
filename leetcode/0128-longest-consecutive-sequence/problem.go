@@ -9,7 +9,7 @@ import (
 // ============================================
 // https://leetcode.com/problems/longest-consecutive-sequence/
 //
-// Given an unsorted array of integers nums, return the length of 
+// Given an unsorted array of integers nums, return the length of
 // the longest consecutive elements sequence.
 //
 // You must write an algorithm that runs in O(n) time.
@@ -28,7 +28,7 @@ func longestConsecutive(nums []int) int {
 	// Strategy: 1. Put all nums into a Map (Set)
 	//           2. Find the start of each sequence
 	//           3. Count consecutive neighbors
-	
+
 	return 0
 }
 
