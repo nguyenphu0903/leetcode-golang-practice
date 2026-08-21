@@ -24,12 +24,36 @@ import (
 //
 
 func longestConsecutive(nums []int) int {
-	// TODO: Implement O(n) logic
+	if len(nums) == 0 {
+		return 0
+	}
+
 	// Strategy: 1. Put all nums into a Map (Set)
-	//           2. Find the start of each sequence
-	//           3. Count consecutive neighbors
-	
-	return 0
+	mapSet := make(map[int]bool)
+	for _, num := range nums {
+		mapSet[num] = true
+	}
+
+	// Strategy: 2 & 3. Find start of each sequence and count
+	longestStreak := 0
+	for num := range mapSet {
+		// Only count if num is the start of a sequence
+		if _, exists := mapSet[num-1]; exists {
+			continue
+		}
+		// num is the start of a sequence
+		currentNum := num
+		currentStreak := 1
+		for mapSet[currentNum+1] {
+			currentNum++
+			currentStreak++
+		}
+		if currentStreak > longestStreak {
+			longestStreak = currentStreak
+		}
+	}
+
+	return longestStreak
 }
 
 func main() {
