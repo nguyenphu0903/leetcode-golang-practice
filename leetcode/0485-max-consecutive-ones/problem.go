@@ -36,8 +36,22 @@ func findMaxConsecutiveOnes(nums []int) int {
 	//   nếu nums[i] == 1 -> current++
 	//   nếu nums[i] == 0 -> so sánh và reset current = 0
 	// Cuối cùng return max(longest, current) vì mảng có thể kết thúc bằng 1
-
-	return 0
+	numLen := 0
+	currentLen := 0
+	for _, num := range nums {
+		if num == 1 {
+			currentLen++
+			continue
+		}
+		if currentLen > numLen {
+			numLen = currentLen
+		}
+		currentLen = 0
+	}
+	if currentLen > numLen {
+		numLen = currentLen
+	}
+	return numLen
 }
 
 func main() {
