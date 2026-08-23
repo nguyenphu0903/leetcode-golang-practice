@@ -43,20 +43,23 @@ import "fmt"
 //
 
 func twoSumII(numbers []int, target int) []int {
-	// TODO: Implement logic
-	// Gợi ý: Mảng đã SẮP XẾP -> dùng kỹ thuật TWO POINTERS!
-	//   - left := 0, right := len(numbers)-1
-	//   - sum := numbers[left] + numbers[right]
-	//       nếu sum == target  -> tìm thấy, return [left+1, right+1] (vì 1-indexed)
-	//       nếu sum < target   -> tổng quá nhỏ, cần tăng -> left++
-	//       nếu sum > target   -> tổng quá lớn, cần giảm -> right--
-	// Time: O(n)
-	// Space: O(1)
-
-	// So sánh với Two Sum (LeetCode 1): mảng chưa sắp xếp -> dùng Hash Map O(n) space.
-	// Ở đây mảng đã sort -> two pointers tận dụng tính chất sorted để dùng O(1) space.
-
-	return nil
+	i := 0;
+	j := len(numbers) - 1
+	for i < j {
+		sum := numbers[i] + numbers[j]
+		if sum == target {
+			return []int{i + 1, j + 1} // Return 1-indexed positions
+		}
+		if sum < target {
+			i++
+			continue
+		}
+		if sum > target {
+			j--
+			continue
+		}
+	}
+	return []int{} // This line should never be reached due to problem constraints
 }
 
 func main() {

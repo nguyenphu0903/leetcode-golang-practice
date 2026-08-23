@@ -107,7 +107,7 @@ _Bonus / Extra Practice:_
 ### 2. Two Pointers
 
 - [x] Valid Palindrome (Easy)
-- [ ] Two Sum II - Input Array Is Sorted (Medium)
+- [x] Two Sum II - Input Array Is Sorted (Medium)
 - [ ] 3Sum (Medium)
 - [ ] Container With Most Water (Medium)
 - [ ] Trapping Rain Water (Hard)
