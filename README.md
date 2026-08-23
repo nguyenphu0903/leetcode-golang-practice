@@ -102,6 +102,7 @@ Progress tracking based on the [NeetCode Roadmap](https://neetcode.io/roadmap).
 _Bonus / Extra Practice:_
 
 - [/] Subarray Sum Equals K (Medium - Prefix Sum)
+- [x] Ransom Note (Easy - Counting Array)
 
 ### 2. Two Pointers
 
