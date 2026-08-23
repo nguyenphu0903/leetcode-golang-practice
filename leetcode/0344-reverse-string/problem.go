@@ -39,6 +39,13 @@ func reverseString(s []byte) {
 	//
 	// Time: O(n)      — duyệt nửa mảng
 	// Space: O(1)     — in-place, đúng yêu cầu đề bài
+	left := 0
+	right := len(s) - 1
+	for left < right {
+		s[left], s[right] = s[right], s[left]
+		left++
+		right--
+	}
 }
 
 func printBytes(label string, b []byte) {

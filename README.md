@@ -103,6 +103,8 @@ _Bonus / Extra Practice:_
 
 - [/] Subarray Sum Equals K (Medium - Prefix Sum)
 - [x] Ransom Note (Easy - Counting Array)
+- [x] Reverse String (Easy - Two Pointers)
+- [x] Squares of a Sorted Array (Easy - Two Pointers)
 
 ### 2. Two Pointers
 
